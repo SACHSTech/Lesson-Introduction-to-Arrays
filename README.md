@@ -283,7 +283,7 @@ nth element is at index n - 1
 
 ## Array Length
 
-Every array has a built-in field called `length`, which tells you **how many elements** the array contains.
+Every array has a built-in field called `length` that  tells you **how many elements** the array contains:
 
 ```java
 System.out.println(marks.length);
@@ -317,6 +317,19 @@ for (int i = 0; i < marks.length; i++) {
 
 This guarantees you stay within valid bounds.
 
+### Parentheses or No Parentheses?
+
+Arrays use a **field**, so you write `array.length` with no parentheses.
+
+Strings use a **method**, so you write `string.length()` with parentheses.
+
+```java
+int[] marks = new int[5];
+System.out.println(marks.length);   // array → field
+
+String name = "Chris";
+System.out.println(name.length());  // String → method
+```
 
 <br>
 
@@ -390,7 +403,7 @@ Then print the names in the following order:
 4. the **second** name entered  
 5. the **middle** name in the list  
 
-Think carefully about the array positions. Try to write your solution so that it is value for an array of any size, not just hardcoded as 5.
+Think carefully about the array positions. Try to write your solution so that it is valid for an array of any size, not just hardcoded as 5.
 
 <br>
 
