@@ -337,28 +337,28 @@ System.out.println(name.length());  // String → method
 
 Each of the following problems strengthens your understanding of array creation, indexing, assignment, and basic data manipulation.  
 
-Later problems increase in complexity and require more careful reasoning.
+Annotated solutions to these problems can be found [here](SOLUTIONS.md).
 
 
-### Problem 1 — First and Last  
+## Problem 1 — First and Last  
 Create an `int[]` with 5 values representing cans collected by different homerooms.  
 Print the first and last values in the array.
 
 <br>
 
-### Problem 2 — Favourite Songs  
+## Problem 2 — Favourite Songs  
 Create a `String[]` storing your 5 favourite songs.  
 Print the song in the middle of the list.
 
 <br>
 
-### Problem 3 — Menu Prices  
+## Problem 3 — Menu Prices  
 Create a `double[]` of 6 menu prices using an array initializer.  
 Print the second-last price in the list.
 
 <br>
 
-### Problem 4 — Replace a Value  
+## Problem 4 — Replace a Value  
 Given the array:  
 ```java
 int[] nums = {4, 8, 15, 16, 23, 42};
@@ -368,21 +368,21 @@ Print all values using a loop.
 
 <br>
 
-### Problem 5 — Swap  
+## Problem 5 — Swap  
 Create an integer array of 5 elements.  
 Swap the first element with the last.  
 Print the array before and after the swap.
 
 <br>
 
-### Problem 6 — Manual Copy  
+## Problem 6 — Manual Copy  
 Create a `String[]` with 4 names.  
 Create a second empty `String[]` of the same size.  
 Copy each element from the first array into the second one manually, using direct index access.
 
 <br>
 
-### Problem 7 — Index Expressions  
+## Problem 7 — Index Expressions  
 Given:  
 ```java
 double[] data = {1.5, 3.2, 4.8, 7.6, 9.1};
@@ -391,7 +391,7 @@ Print the first element, the last element, the middle element, and one additiona
 
 <br>
 
-### Problem 8 — Store and Reorder User Input  
+## Problem 8 — Store and Reorder User Input  
 Ask the user to enter **five** names.  
 Store them inside a `String[]` of size 5.
 
@@ -407,7 +407,7 @@ Think carefully about the array positions. Try to write your solution so that it
 
 <br>
 
-### Problem 9 — Neighbour Differences
+## Problem 9 — Neighbour Differences
 
 Given the array:
 
@@ -436,7 +436,7 @@ Think carefully about how the indices of the new array relate to the indices of 
 
 <br>
 
-### Problem 10 — Formatted Score Table
+## Problem 10 — Formatted Score Table
 Given two related arrays:
 
 ```java
@@ -462,4 +462,3 @@ Hermione  : 31
 ```
 
 Spacing must adjust automatically based on string lengths.
-
